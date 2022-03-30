@@ -1,0 +1,270 @@
+{
+	"id": "f89942e6-0a1d-45c0-8f51-69d2d0024865",
+	"name": "Дом питомца_задание 10.6",
+	"timestamp": "2022-03-30T14:40:19.781Z",
+	"collection_id": "19819249-e95b945a-f185-4055-9872-452bcba5545e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b6419353-6ee1-4e0f-98b3-eb2d919ed9b6",
+			"name": "1_Кот",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BA%D0%BE%D1%82&breed__code=pitbull&gender__code=wait_home&age=1",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7b7a2036-31cd-4514-afa0-d3b9111b9de9",
+			"name": "2_Кот",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BA%D0%BE%D1%82&breed__code=pitbull&gender__code=wait_home&age=1",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c2efbd4b-b18c-4a5b-bcbc-b8b95a262c11",
+			"name": "3_Кот",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BA%D0%BE%D1%82&breed__code=indian&gender__code=wait_home&age=2",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a61142d1-ec68-4595-acd6-bd08754962f6",
+			"name": "4_Кошка",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BA%D0%BE%D1%88%D0%BA%D0%B0&breed__code=pitbull&gender__code=f&age=2",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f9c73ac7-cc53-4bfc-a5eb-ec2eb8445cd2",
+			"name": "5_Кошка",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BA%D0%BE%D1%88%D0%BA%D0%B0&breed__code=indian&gender__code=wait_home&age=0",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2ab1cde5-e12a-44e5-88da-6b1177a560ee",
+			"name": "6_Обезьянка",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%9E%D0%B1%D0%B5%D0%B7%D1%8C%D1%8F%D0%BD%D0%BA%D0%B0&breed__code=indian&gender__code=m&age=2",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96865ec5-4121-4ef3-aee4-78f596b8c29a",
+			"name": "7_Попугай",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9&breed__code=pitbull&gender__code=m&age=0",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				88
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6ee165cd-a9d0-4bbd-a77f-29353ec28969",
+			"name": "8_Попугай",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9&breed__code=indian&gender__code=f&age=2",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				105
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "414bc6ad-1c10-4fd3-9dec-bc163358a4bc",
+			"name": "9_Попугай",
+			"url": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9&breed__code=cockatiel&gender__code=wait_home&age=0",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 735,
+	"collection": {
+		"requests": [
+			{
+				"id": "b6419353-6ee1-4e0f-98b3-eb2d919ed9b6",
+				"method": "GET"
+			},
+			{
+				"id": "7b7a2036-31cd-4514-afa0-d3b9111b9de9",
+				"method": "GET"
+			},
+			{
+				"id": "c2efbd4b-b18c-4a5b-bcbc-b8b95a262c11",
+				"method": "GET"
+			},
+			{
+				"id": "a61142d1-ec68-4595-acd6-bd08754962f6",
+				"method": "GET"
+			},
+			{
+				"id": "f9c73ac7-cc53-4bfc-a5eb-ec2eb8445cd2",
+				"method": "GET"
+			},
+			{
+				"id": "2ab1cde5-e12a-44e5-88da-6b1177a560ee",
+				"method": "GET"
+			},
+			{
+				"id": "96865ec5-4121-4ef3-aee4-78f596b8c29a",
+				"method": "GET"
+			},
+			{
+				"id": "6ee165cd-a9d0-4bbd-a77f-29353ec28969",
+				"method": "GET"
+			},
+			{
+				"id": "414bc6ad-1c10-4fd3-9dec-bc163358a4bc",
+				"method": "GET"
+			}
+		]
+	}
+}
